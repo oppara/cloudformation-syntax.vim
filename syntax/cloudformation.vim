@@ -1,7 +1,7 @@
 
 " This is an automatically generated syntax file created on Sat, 02 Sep 2017 06:29:58 GMT
 " Origin: https://github.com/NLKNguyen/cloudformation-syntax.vim
-set ft=cloudformation.yaml
+set ft=yaml
 
 syn match CfmYamlResourceName "\<AWS::ApiGateway::Account\>" contained containedin=yamlFlowString,yamlPlainScalar
 syn match CfmYamlResourceName "\<AWS::EC2::SpotFleet\>" contained containedin=yamlFlowString,yamlPlainScalar
